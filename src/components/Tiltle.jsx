@@ -1,8 +1,9 @@
 /* eslint-disable */
-import React from 'react'
+import React,{ memo } from 'react'
 import { TitleWrapper } from './Title.styled'
 
 const Tiltle = ({title , subtitle}) => {
+
   return (
     <TitleWrapper>
       <h1>{title}</h1>
@@ -11,4 +12,4 @@ const Tiltle = ({title , subtitle}) => {
   )
 }
 
-export default Tiltle
+export default memo(Tiltle);
