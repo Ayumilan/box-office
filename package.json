@@ -1,5 +1,6 @@
 {
   "homepage": "https://Ayumilan.github.io/box-office",
+  "name": "box-office",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
